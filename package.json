@@ -1,0 +1,26 @@
+{
+  "name": "fb-messenger-bot-wit.ai",
+  "version": "0.1.0",
+  "description": "Boilerplate code for making FB Messenger Bot with Natural Language Processing using wit.ai",
+  "main": "messenger.js",
+  "scripts": {
+    "start": "node messenger.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/atinsinghal97/fb-messenger-bot-wit.ai.git"
+  },
+  "author": "Atin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "crypto": "^1.0.1",
+    "node-fetch": "^2.6.0",
+    "node-wit": "^6.0.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
